@@ -15,7 +15,8 @@
     "type": "MIT"
   },
   "dependencies": {
-    "node-expat": ">=1.4.4"
+    "node-expat": ">=1.4.4",
+    "request": "^2.88.0"
   },
   "devDependencies": {},
   "main": "./lib"
