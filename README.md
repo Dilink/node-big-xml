@@ -42,6 +42,13 @@ The output would take the form:
 }
 ```
 
+You can catch the end event of the record:
+ ```javascript
+reader.on('end', function(){
+  console.log("The XML record is done :)");
+});
+```
+
 And if you want to handle errors (by default they are thrown):
 
 ```
